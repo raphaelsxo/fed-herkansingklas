@@ -38,17 +38,23 @@ https://www.benjerry.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+homepagina
+<img src="readme-images/homepagina.png" width="375px" alt="homepagina van de ben en jerrys site">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+contactpagina
+<img src="readme-images/contactpagina.png" width="375px" alt="contactpagina van de ben en jerrys site">
 
 </details>
 
 ## Toegankelijkheidstest 1/2 (week 1)
+
+ik heb als toegankelijkheidstest de schokautomaat gebruikt waar ik achter ben gekomen is dat de site niet helemaal toegankelijk is voor mensen die last hebben van trillingen bij hun arm bijvoorbeeld dan hebben ze moeite met het zoeken van hun website of met het bijvoorbeeld invullen van hun email adres
+
+Ik heb voor de tweede toegankelijkheidstest een bril gebruikt voor mensen met slecht zicht en waar ik achter ben gekomen is dat mensen niet gemakkelijk de knoppen zien maar wel de afbeeldingen. Ook kunnen ze niet makkelijk alle icoontjes zien omdat die dezelfde kleur zijn als de knoppen.
+
+Ik heb voor de derde toegankelijkheidstest de voice over functie gebruikt wat ik hier gemerkt heb is dat de voiceover wel werkt in het engels maar niet in het nederlands en ook merk ik dat het niet de afbeeldingen opleest.
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
@@ -210,8 +216,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
+1. benjerry.nl
+2. chatgpt.com
+3. youtube.com
 
 </details>

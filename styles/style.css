@@ -1,31 +1,367 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+body {
+  background: white;
+  color: #111;
+  font-family: "Nunito Sans", sans-serif;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
+h1,
+h2,
+h3 {
+  font-family: "Lilita One", sans-serif;
+}
 
+.header {
+  align-items: center;
+  background: white;
+  border-bottom: 3px solid #5bb9dc;
+  display: flex;
+  height: 68px;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+.logo img {
+  width: 100px;
+}
 
-/* jouw code */
+.menu-button {
+  background: none;
+  border: 0;
+}
 
+.menu-button span {
+  background: #777;
+  display: block;
+  height: 2px;
+  margin: 3px;
+  width: 14px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-text {
+  padding: 12px 18px 25px;
+}
+
+.hero-text h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  max-width: 330px;
+}
+
+.hero-text p {
+  font-size: 11px;
+  margin-bottom: 12px;
+  max-width: 330px;
+}
+
+.button {
+  background: #ffbd00;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 7px 15px;
+}
+
+/* VERKOOPPUNTEN */
+
+.verkooppunten {
+  padding: 12px 18px 20px;
+}
+
+.verkooppunten > h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.verkooppunten-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.verkooppunten-image {
+  min-height: 180px;
+  width: 100%;
+}
+
+.verkooppunten-text {
+  padding-top: 8px;
+}
+
+.verkooppunten-text h3 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.verkooppunten-text p {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+/* DOE MEE */
+
+.doe-mee {
+  background: #211667;
+  color: white;
+}
+
+.doe-mee-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.doe-mee-image {
+  min-height: 220px;
+  width: 100%;
+}
+
+.doe-mee-text {
+  padding: 14px 18px 20px;
+}
+
+.doe-mee-text h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.doe-mee-text p {
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+
+/* TOPVERHALEN */
+
+.topverhalen {
+  padding: 15px 18px 30px;
+}
+
+.topverhalen > h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.verhalen-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.verhaal {
+  min-width: 0;
+}
+
+.verhaal-image {
+  margin-bottom: 7px;
+  min-height: 120px;
+  width: 100%;
+}
+
+.verhaal .datum {
+  font-size: 7px;
+  margin-bottom: 5px;
+}
+
+.verhaal h3 {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.verhaal p {
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.verhaal a {
+  color: #1759a5;
+  display: inline-block;
+  font-size: 9px;
+  margin-top: 7px;
+  text-decoration: underline;
+}
+
+/* OVER ONS */
+
+.over-ons {
+  background: #bde7f4;
+  overflow: hidden;
+  padding: 20px 18px 90px;
+  position: relative;
+}
+
+.over-ons-content {
+  width: 100%;
+}
+
+.over-ons h2 {
+  font-size: 21px;
+  margin-bottom: 25px;
+  max-width: 340px;
+}
+
+.waarden {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.waarde {
+  display: flex;
+  gap: 10px;
+}
+
+.waarde-icon {
+  height: 40px;
+  min-width: 40px;
+  width: 40px;
+}
+
+.waarde h3 {
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.waarde p {
+  font-size: 9px;
+  max-width: 280px;
+}
+
+.waarde a {
+  color: #1759a5;
+  font-size: 9px;
+  text-decoration: underline;
+}
+
+.cow {
+  bottom: 5px;
+  position: absolute;
+  right: 10px;
+  width: 90px;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #205c29;
+  color: white;
+  padding: 20px 18px 30px;
+}
+
+.nieuwsbrief,
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.nieuwsbrief h2,
+.footer-section h2 {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.nieuwsbrief p,
+.footer a {
+  font-size: 9px;
+}
+
+.nieuwsbrief p {
+  margin-bottom: 10px;
+}
+
+.email-input {
+  display: flex;
+  max-width: 350px;
+}
+
+.email-input input {
+  border: 0;
+  height: 28px;
+  padding: 5px 8px;
+  width: 100%;
+}
+
+.email-input button {
+  background: #ffbd00;
+  border: 0;
+  width: 30px;
+}
+
+.socials {
+  display: flex;
+  gap: 8px;
+}
+
+.socials a {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  width: 25px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 15px;
+}
+
+@media (min-width: 700px) {
+  body {
+    background: black;
+  }
+
+  .header,
+  main,
+  .footer {
+    margin: 0 auto;
+    max-width: 720px;
+  }
+
+  .verkooppunten-content {
+    flex-direction: row;
+  }
+
+  .verkooppunten-image,
+  .verkooppunten-text {
+    width: 50%;
+  }
+
+  .doe-mee-content {
+    flex-direction: row;
+  }
+
+  .doe-mee-image,
+  .doe-mee-text {
+    width: 50%;
+  }
+}
